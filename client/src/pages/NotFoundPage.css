@@ -1,0 +1,27 @@
+.not-found-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #0d1324 0%, #172033 100%);
+}
+
+.not-found-panel {
+  width: min(100%, 520px);
+  padding: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: rgba(12, 19, 35, 0.78);
+  text-align: center;
+}
+
+.not-found-panel p:first-child {
+  margin: 0 0 10px;
+  color: #ff6b6b;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.not-found-panel h1 {
+  margin: 0 0 18px;
+}

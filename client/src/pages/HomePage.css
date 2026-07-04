@@ -1,0 +1,48 @@
+.home-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top left, rgba(78, 205, 196, 0.18), transparent 34%),
+    linear-gradient(135deg, #111827 0%, #172033 48%, #0f172a 100%);
+}
+
+.home-panel {
+  width: min(100%, 620px);
+  padding: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  background: rgba(17, 24, 39, 0.72);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(18px);
+}
+
+.home-kicker {
+  margin: 0 0 12px;
+  color: #4ecdc4;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.home-panel h1 {
+  margin: 0;
+  color: #f8fafc;
+  font-size: clamp(2rem, 6vw, 4.75rem);
+  line-height: 1;
+}
+
+.home-panel p:last-child {
+  margin: 18px 0 0;
+  color: #cbd5e1;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 560px) {
+  .home-panel {
+    padding: 28px;
+  }
+}

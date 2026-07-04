@@ -1,0 +1,37 @@
+.form-field {
+  display: grid;
+  gap: 8px;
+}
+
+.form-field span {
+  color: #d9e7ee;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.form-field input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid rgb(40 124 7);
+  border-radius: 8px;
+  background: rgb(167 197 174 / 66%);
+  color: #ffffff;
+  font: inherit;
+  outline: none;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    background 160ms ease;
+}
+
+.form-field input:focus {
+  border-color: rgba(78, 205, 196, 0.72);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 4px rgba(78, 205, 196, 0.12);
+}
+
+.form-field small {
+  color: #ff8a8a;
+  font-size: 0.82rem;
+}
