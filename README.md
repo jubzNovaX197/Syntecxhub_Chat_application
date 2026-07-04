@@ -7,7 +7,7 @@ A modern **real-time chat application** built using the **MERN Stack**. This app
 # 🚀 Live Demo
 
 Frontend:
-syntecxhubchatweb-rust.vercel.app
+https://syntecxhubchatweb-rust.vercel.app
 
 Backend:
 https://syntecxhub-chat-web-sl9o.onrender.com
