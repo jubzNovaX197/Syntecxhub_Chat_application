@@ -7,10 +7,10 @@ A modern **real-time chat application** built using the **MERN Stack**. This app
 # 🚀 Live Demo
 
 Frontend:
-https://your-frontend-url.vercel.app
+syntecxhubchatweb-rust.vercel.app
 
 Backend:
-https://your-backend-url.onrender.com
+https://syntecxhub-chat-web-sl9o.onrender.com
 
 ---
 
@@ -432,16 +432,8 @@ Database
 
 # 👨‍💻 Author
 
-**Your Name**
+**Jublee Dash**
 
-GitHub:
-https://github.com/yourusername
-
-LinkedIn:
-https://linkedin.com/in/yourusername
-
-Portfolio:
-https://yourportfolio.com
 
 ---
 
